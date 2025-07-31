@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F"
+    android:padding="16dp"
+    tools:context=".TimeActivit">
+
+    <!-- Number to trace -->
+    <TextView
+        android:id="@+id/numberText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="Write: "
+        android:gravity="center"
+
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Buttons -->
+
+    <com.example.maths.DrawingView
+
+        android:id="@+id/drawingView"
+        android:layout_width="wrap_content"
+        android:layout_height="310dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="274dp"
+        android:background="@color/white" />
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginStart="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -18,6 +18,22 @@
             android:name=".Myvillage"
             android:exported="false" />
         <activity
+            android:name=".Near_farActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Before_After_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TimeActivit"
+            android:exported="false" />
+        <activity
+            android:name=".ShapeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NumberSequenceActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

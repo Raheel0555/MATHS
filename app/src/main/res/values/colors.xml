@@ -2,6 +2,16 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="red">#6F0803</color>
+    <color name="redd">#6F0803</color>
     <color name="green">#8DDE91</color>
+    <color name="red">#FF4444</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_active">#2196F3</color>
+    <color name="tab_inactive">#808080</color>
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#F0F0F0</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#757575</color>
 </resources>

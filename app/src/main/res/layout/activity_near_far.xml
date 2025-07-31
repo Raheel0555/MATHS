@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Top Image -->
+        <ImageView
+            android:id="@+id/questionImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/near" />
+
+        <!-- Question Text -->
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="चित्र बघ. गाय जवळ आहे की सूर्य?"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp"
+            android:gravity="center" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="गाय"
+                android:backgroundTint="#9C27B0"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="सूर्य"
+                android:backgroundTint="#9C27B0"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+
+
+
+        <!-- Top Image -->
+        <ImageView
+            android:id="@+id/questionImage2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/boy"
+            android:layout_marginTop="50dp"/>
+
+        <!-- Question Text -->
+        <TextView
+            android:id="@+id/questionText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="चित्र बघ. मुलगा दूर आहे का मुलगी?"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp"
+            android:gravity="center" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonboy"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="मुलगा "
+                android:backgroundTint="#9C27B0"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/buttongirl"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="मुलगी"
+                android:backgroundTint="#9C27B0"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/questionImage3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cat"
+            android:layout_marginTop="50dp"/>
+
+        <!-- Question Text -->
+
+
+        <ImageView
+            android:id="@+id/questionImage4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dog"
+            android:layout_marginTop="30dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

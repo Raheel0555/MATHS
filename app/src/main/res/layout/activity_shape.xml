@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E7"
+    android:padding="16dp">
+
+    <!-- Header Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Match the Shape!"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#4A148C"
+        android:layout_marginBottom="16dp" />
+    <TextView
+        android:id="@+id/feedbackText"
+
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drag the correct shape!"
+        android:textSize="18sp"
+        android:textColor="#4A148C"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+
+    <!-- Object to Match -->
+    <ImageView
+        android:id="@+id/objectImage"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/apple"
+        android:background="@drawable/rounded_border"
+        android:padding="8dp"
+        android:elevation="6dp" />
+
+    <!-- Shape Options Row 1 -->
+    <LinearLayout
+        android:id="@+id/shapeOptions"
+        android:layout_below="@id/objectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/shapeSphere"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/apple"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_item_bg"
+            android:contentDescription="Sphere" />
+
+        <ImageView
+            android:id="@+id/shapeCone"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/icecreame"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_item_bg"
+            android:contentDescription="Cone" />
+
+        <ImageView
+            android:id="@+id/shapeCuboid"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/circle"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_item_bg"
+            android:contentDescription="Cuboid" />
+    </LinearLayout>
+
+    <!-- Shape Options Row 2 -->
+    <LinearLayout
+        android:id="@+id/shapeOptions2"
+        android:layout_below="@id/shapeOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/shapeCylinder"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/round"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_item_bg"
+            android:contentDescription="Cylinder" />
+
+        <ImageView
+            android:id="@+id/shapebottel"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/bottel"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_item_bg"
+            android:contentDescription="Sphere" />
+
+        <ImageView
+            android:id="@+id/shapetrangle2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/trangle2"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_item_bg"
+            android:contentDescription="Cone" />
+    </LinearLayout>
+
+    <!-- Shape Options Row 3 -->
+    <LinearLayout
+        android:layout_below="@id/shapeOptions2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/shaperectangle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/rectangle"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_item_bg"
+            android:contentDescription="Cuboid" />
+
+        <ImageView
+            android:id="@+id/shapetrangle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/ttrangle"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_item_bg"
+            android:contentDescription="Cylinder" />
+    </LinearLayout>
+
+    <!-- Feedback Text -->
+
+
+
+
+</RelativeLayout>
