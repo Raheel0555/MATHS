@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MATHS">
         <activity
+            android:name=".PuzzelActivity"
+            android:exported="false" />
+        <activity
             android:name=".Myvillage"
             android:exported="false" />
         <activity

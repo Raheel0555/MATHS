@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PuzzelActivity"
+    android:background="@drawable/backp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Crazy Counting kingdom "
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:background="@color/black"
+                android:textColor="@color/white"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="70dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+
+                android:layout_marginStart="40dp"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/z1"
+                    android:src="@drawable/mang"
+                    />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/z2"
+                    android:src="@drawable/mang"
+                    />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/z3"
+                    android:src="@drawable/mang"
+                    />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/z4"
+                    android:src="@drawable/mang"/>
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="How many mangoes are there?"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/green"
+                android:textColor="@color/red" />
+
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical">
+
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Two"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Three"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Four"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Five"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
