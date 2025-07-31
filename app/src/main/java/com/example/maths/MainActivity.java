@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btn4 = findViewById(R.id.btn4);
         btn14 = findViewById(R.id.btn14);
         btn11 = findViewById(R.id.btn11);
+        btn7 = findViewById(R.id.btn7);
 
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,6 +72,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, NumberSequenceActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ten_number.class);
                 startActivity(intent);
             }
         });
