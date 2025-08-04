@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn6,btn1,btn2,btn3,btn4,btn7,btn11 ,btn14, btn12,btn13,btn5,btn9,btn10,btn15,btn16;
+    Button btn6,btn1,btn2,btn3,btn4,btn7,btn11 ,btn14, btn12,btn13,btn5,btn9,btn10,btn15,btn16,btn17;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         btn14 = findViewById(R.id.btn14);
         btn15 = findViewById(R.id.btn15);
         btn16 = findViewById(R.id.btn16);
+        btn17 = findViewById(R.id.btn17);
 
 
         btn6.setOnClickListener(new View.OnClickListener() {
@@ -143,6 +144,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Subballoon.class);
+                startActivity(intent);
+            }
+        });
+        btn17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, num21to30.class);
                 startActivity(intent);
             }
         });
