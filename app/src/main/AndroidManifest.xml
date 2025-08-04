@@ -33,6 +33,9 @@
             android:name=".ShapeActivity"
             android:exported="false" />
         <activity
+            android:name=".Preshooter"
+            android:exported="false" />
+        <activity
             android:name=".NextNumberWorksheetActivity"
             android:exported="false" />
         <activity
