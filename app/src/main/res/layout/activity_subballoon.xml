@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎈 Balloon Pop Math 🎈"
+        android:textSize="28sp"
+        android:textColor="#FF6B35"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Problem Display (Now Rounded) -->
+    <TextView
+        android:id="@+id/problemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 - 2 = ?"
+        android:textSize="36sp"
+        android:textColor="#2E7D32"
+        android:textStyle="bold"
+        android:padding="24dp"
+        android:background="@drawable/rounded_white_box"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Balloon Game Area (Now Rounded) -->
+    <com.example.maths.BalloonView
+        android:id="@+id/balloonView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="24dp"
+        android:background="@drawable/rounded_balloon_area" />
+
+    <!-- Feedback Message -->
+    <TextView
+        android:id="@+id/feedbackText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:textColor="#1976D2"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:minHeight="32dp" />
+
+    <!-- Answer Input Section -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answer: "
+            android:textSize="22sp"
+            android:textColor="#37474F"
+            android:textStyle="bold"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Answer Input Box (Now Rounded) -->
+        <EditText
+            android:id="@+id/answerInput"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:textColor="#2E7D32"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:background="@drawable/rounded_input_box" />
+
+    </LinearLayout>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Submit Button (Now Rounded) -->
+        <Button
+            android:id="@+id/submitAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✓ Submit"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_submit_button"
+            android:layout_marginEnd="12dp"
+            android:padding="12dp" />
+
+        <!-- Next Button (Now Rounded) -->
+        <Button
+            android:id="@+id/nextProblem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="➤ Next"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_next_button"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
