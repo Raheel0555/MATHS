@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFDE7"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📘 माहिती समजून घेऊ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#BF360C"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/tvFact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:textSize="22sp"
+        android:textColor="#1A237E"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnNextFact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="➡️ पुढील माहिती"
+        android:textSize="18sp"
+        android:backgroundTint="#FFCC80"
+        android:textColor="#000000" />
+</LinearLayout>

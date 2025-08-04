@@ -33,7 +33,19 @@
             android:name=".ShapeActivity"
             android:exported="false" />
         <activity
-            android:name=".NumberSequenceActivity"
+            android:name=".NextNumberWorksheetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompareDynamicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MinMaxPickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

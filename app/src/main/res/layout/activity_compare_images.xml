@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFDE7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- 🔁 Dynamic instruction will update here -->
+        <TextView
+            android:id="@+id/tvInstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔍 वस्तू ओळखा"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#BF360C"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Row of two emoji groups -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_marginBottom="20dp">
+
+            <!-- Option 1: Left emoji group -->
+            <LinearLayout
+                android:id="@+id/layoutLeft"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="#E1F5FE" />
+
+            <!-- Option 2: Right emoji group -->
+            <LinearLayout
+                android:id="@+id/layoutRight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="#FFF8E1" />
+        </LinearLayout>
+
+        <!-- Result Display -->
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="उत्तर येथे दिसेल"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp" />
+
+        <!-- New Question Button -->
+        <Button
+            android:id="@+id/btnNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="नवीन प्रश्न"
+            android:textSize="18sp"
+            android:backgroundTint="#FFB74D"
+            android:textColor="#000000"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+</ScrollView>
+

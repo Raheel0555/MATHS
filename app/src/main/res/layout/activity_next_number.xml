@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDE7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔢 लगतची पुढची, मागची व मधली संख्या"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#BF360C"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="उदा. ३ च्या लगतची पुढची संख्या = ४"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000000" />
+
+        <!-- Question Row -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="संपूर्ण करा: "
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="९ च्या"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#1A237E" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" लगतची मागची संख्या = "
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/editAnswer"
+                android:layout_width="60dp"
+                android:layout_height="50sp"
+                android:hint="?"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:background="@android:drawable/editbox_background" />
+        </LinearLayout>
+
+        <!-- Check Answer Button -->
+        <Button
+            android:id="@+id/btnCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="उत्तर तपासा"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#FFB74D"
+            android:textColor="#000000" />
+
+        <!-- Result -->
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="उत्तर येथे दिसेल"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

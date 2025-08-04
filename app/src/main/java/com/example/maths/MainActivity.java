@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn6,btn1,btn2,btn3,btn4,btn7,btn11 ,btn14;
+    Button btn6,btn1,btn2,btn3,btn4,btn7,btn11 ,btn14, btn12,btn13,btn28,btn29;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         btn14 = findViewById(R.id.btn14);
         btn11 = findViewById(R.id.btn11);
         btn7 = findViewById(R.id.btn7);
+        btn12 = findViewById(R.id.btn12);
+        btn13 = findViewById(R.id.btn13);
+        btn28 = findViewById(R.id.btn28);
+        btn29 = findViewById(R.id.btn29);
 
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         btn11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, NumberSequenceActivity.class);
+                Intent intent = new Intent(MainActivity.this, NextNumberWorksheetActivity.class);
                 startActivity(intent);
             }
         });
@@ -79,6 +83,38 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ten_number.class);
+                startActivity(intent);
+            }
+        });
+
+        btn12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, MinMaxPickerActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn28.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, InfoActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn29.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CompareDynamicActivity.class);
                 startActivity(intent);
             }
         });
