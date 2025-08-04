@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn6,btn1,btn2,btn3,btn4,btn7,btn11 ,btn14, btn12,btn13,btn5,btn9,btn10,btn15,btn16,btn17,btn18,btn20;
+    Button btn6,btn1,btn2,btn3,btn4,btn7,btn11 ,btn14, btn12,btn13,btn5,btn9,btn10,btn15,btn16,btn17,btn18,btn20,btn21,btn22;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         btn18 = findViewById(R.id.btn18);
 
         btn20 = findViewById(R.id.btn20);
+        btn21 = findViewById(R.id.btn21);
+        btn22 = findViewById(R.id.btn22);
 
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -170,7 +172,20 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        btn21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Measureit.class);
+                startActivity(intent);
+            }
+        });
+        btn22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TimeMeasurement.class);
+                startActivity(intent);
+            }
+        });
 
 
 

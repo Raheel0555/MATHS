@@ -15,6 +15,10 @@
     <string name="what_you_will_learn">
     🎯 What you will learn:\n• Recognize different shapes\n• Understand shape properties\n• Have fun with drag &amp; drop!
 </string>
+    <string name="set_time">Set the clock to: %1$s</string>
+    <string name="correct_time">Great! That\'s correct!</string>
+    <string name="wrong_time">Oops! The correct time was: %1$s</string>
+    <string name="next">Next</string>
 
     <string-array name="table_options">
         <item>2</item>

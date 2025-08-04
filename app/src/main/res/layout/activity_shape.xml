@@ -37,7 +37,7 @@
         android:layout_below="@id/title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:src="@drawable/apple"
+        android:src="@drawable/apple1"
         android:background="@drawable/rounded_border"
         android:padding="8dp"
         android:elevation="6dp" />
@@ -58,7 +58,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:src="@drawable/apple"
+            android:src="@drawable/apple1"
             android:layout_margin="8dp"
             android:background="@drawable/shape_item_bg"
             android:contentDescription="Sphere" />

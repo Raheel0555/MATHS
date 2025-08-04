@@ -48,6 +48,12 @@
             android:name=".num21to30"
             android:exported="false" />
         <activity
+            android:name=".TimeMeasurement"
+            android:exported="false" />
+        <activity
+            android:name=".Measureit"
+            android:exported="false" />
+        <activity
             android:name=".MinMaxPickerActivity"
             android:exported="false" />
         <activity

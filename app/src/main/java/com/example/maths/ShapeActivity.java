@@ -31,7 +31,7 @@ public class ShapeActivity extends AppCompatActivity {
 
     // Original object images and their correct shape names
     int[] objectImages = {
-            R.drawable.apple,
+            R.drawable.apple1,
             R.drawable.icecreame,
             R.drawable.circle,
             R.drawable.bottel,

@@ -153,11 +153,11 @@
             android:orientation="horizontal"
             android:gravity="center"
             android:layout_marginTop="50dp">
-            <ImageView android:id="@+id/apple1" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
-            <ImageView android:id="@+id/apple2" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
-            <ImageView android:id="@+id/apple3" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
-            <ImageView android:id="@+id/apple4" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
-            <ImageView android:id="@+id/apple5" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple1" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple1" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple2" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple1" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple3" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple1" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple4" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple1" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple5" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple1" android:tag="apple" android:layout_margin="4dp" />
         </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -165,11 +165,11 @@
                 android:orientation="horizontal"
                 android:gravity="center">
 
-            <ImageView android:id="@+id/apple6" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
-            <ImageView android:id="@+id/apple7" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
-            <ImageView android:id="@+id/apple8" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
-            <ImageView android:id="@+id/apple9" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
-            <ImageView android:id="@+id/apple10" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple6" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple1" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple7" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple1" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple8" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple1" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple9" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple1" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple10" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple1" android:tag="apple" android:layout_margin="4dp" />
             <!-- Repeat apple2 to apple10 -->
         </LinearLayout>
         <TextView

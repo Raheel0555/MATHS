@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6FAFE">
+
+    <!-- Game custom view filling most of the screen -->
+    <com.example.maths.MeasurementGameView
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/inputLayout" />
+
+    <!-- Input and Next, fixed at the bottom -->
+    <LinearLayout
+        android:id="@+id/inputLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="4dp"
+        android:background="@android:color/transparent">
+
+        <!-- Bar for closeness (dynamic, drawn programmatically) -->
+        <com.example.maths.ClosestBarView
+            android:id="@+id/closenessBar"
+            android:layout_width="280dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Guess box, rounded and with slight shadow -->
+        <EditText
+            android:id="@+id/inputGuess"
+            android:layout_width="220dp"
+            android:layout_height="54dp"
+            android:background="@drawable/rounded_edit_bg"
+            android:hint="Your guess (cm)"
+            android:textSize="22sp"
+            android:paddingRight="18dp"
+            android:paddingLeft="18dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"
+            android:elevation="4dp"
+            android:layout_marginBottom="6dp"/>
+
+        <!-- Next button centered -->
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="170dp"
+            android:layout_height="52dp"
+            android:text="Next Object"
+            android:backgroundTint="#43B891"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</RelativeLayout>
