@@ -19,6 +19,12 @@
     <string name="correct_time">Great! That\'s correct!</string>
     <string name="wrong_time">Oops! The correct time was: %1$s</string>
     <string name="next">Next</string>
+    //////
+    <string name="make_number">Make: %1$d</string>
+    <string name="your_sum">Your Sum: %1$d</string>
+
+    <string name="correct_msg">Correct! You made %1$d!</string>
+    <string name="fail_msg">Too high! Try again...</string>
 
     <string-array name="table_options">
         <item>2</item>
