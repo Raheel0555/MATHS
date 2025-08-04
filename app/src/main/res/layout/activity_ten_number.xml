@@ -1,108 +1,247 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/rootLayout"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:fillViewport="true"
     android:background="#FFFBEA">
 
-    <TextView
-        android:id="@+id/textStatus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="लाडू बॉक्समध्ये टाका"
-        android:textSize="20sp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="12dp"
-        android:layout_alignParentTop="true" />
-
     <LinearLayout
-        android:id="@+id/ladooContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_below="@id/textStatus"
-        android:layout_marginTop="20dp">
-
-        <!-- 10 ladoos -->
-        <ImageView
-            android:id="@+id/ladoo1"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/ladoo"
-            android:tag="ladoo" />
-        <ImageView
-            android:id="@+id/ladoo2"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/ladoo"
-            android:tag="ladoo" />
-        <ImageView
-            android:id="@+id/ladoo3"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/ladoo"
-            android:tag="ladoo" />
-        <ImageView
-            android:id="@+id/ladoo4"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/ladoo"
-            android:tag="ladoo" />
-        <ImageView
-            android:id="@+id/ladoo5"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/ladoo"
-            android:tag="ladoo" />
-        <ImageView
-            android:id="@+id/ladoo6"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/ladoo"
-            android:tag="ladoo" />
-        <ImageView
-            android:id="@+id/ladoo7"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/ladoo"
-            android:tag="ladoo" />
-        <ImageView
-            android:id="@+id/ladoo8"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/ladoo"
-            android:tag="ladoo" />
-        <ImageView
-            android:id="@+id/ladoo9"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/ladoo"
-            android:tag="ladoo" />
-        <ImageView
-            android:id="@+id/ladoo10"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/ladoo"
-            android:tag="ladoo" />
+        android:orientation="vertical"
+        android:padding="16dp">
 
 
+        <!-- 🍬 10 Ladoo Images -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- Repeat for 10 ladoos with unique IDs -->
+            <ImageView android:id="@+id/ladoo1" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ladoo" android:tag="ladoo" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ladoo2" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ladoo" android:tag="ladoo" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ladoo3" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ladoo" android:tag="ladoo" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ladoo4" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ladoo" android:tag="ladoo" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ladoo5" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ladoo" android:tag="ladoo" android:layout_margin="4dp" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+            <ImageView android:id="@+id/ladoo6" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ladoo" android:tag="ladoo" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ladoo7" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ladoo" android:tag="ladoo" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ladoo8" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ladoo" android:tag="ladoo" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ladoo9" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ladoo" android:tag="ladoo" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ladoo10" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ladoo" android:tag="ladoo" android:layout_margin="4dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/countLadoo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 लाडू"
+            android:textSize="18sp"
+            android:textStyle="bold"
+             android:textColor="#000"
+            android:gravity="center"/>
 
 
-        <!-- Duplicate lado1 for ladoo2 to ladoo10 -->
-        <!-- ... -->
+        <LinearLayout
+            android:id="@+id/boxLadoo"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/box_border"
+            android:layout_marginLeft="40dp"
+            android:tag="ladoo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+
+            <ImageView android:id="@+id/ball1" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/circle" android:tag="ball" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ball2" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/circle" android:tag="ball" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ball3" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/circle" android:tag="ball" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ball4" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/circle" android:tag="ball" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ball5" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/circle" android:tag="ball" android:layout_margin="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        <ImageView android:id="@+id/ball6" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/circle" android:tag="ball" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ball7" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/circle" android:tag="ball" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ball8" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/circle" android:tag="ball" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ball9" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/circle" android:tag="ball" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/ball10" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/circle" android:tag="ball" android:layout_margin="4dp" />
+
+            <!-- ... -->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/countBall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 Ball"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <LinearLayout
+            android:id="@+id/boxBall"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/box_border"
+            android:layout_marginLeft="40dp"
+            android:tag="ladoo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+            <ImageView android:id="@+id/pencil1" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/clock" android:tag="pencil" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/pencil2" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/clock" android:tag="pencil" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/pencil3" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/clock" android:tag="pencil" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/pencil4" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/clock" android:tag="pencil" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/pencil5" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/clock" android:tag="pencil" android:layout_margin="4dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView android:id="@+id/pencil6" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/clock" android:tag="pencil" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/pencil7" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/clock" android:tag="pencil" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/pencil8" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/clock" android:tag="pencil" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/pencil9" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/clock" android:tag="pencil" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/pencil10" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/clock" android:tag="pencil" android:layout_margin="4dp" />
+            <!-- Repeat pencil2 to pencil10 -->
+        </LinearLayout>
+        <TextView
+            android:id="@+id/countPencil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 Clock"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <LinearLayout
+            android:id="@+id/boxPencil"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/box_border"
+            android:layout_marginLeft="40dp"
+            android:tag="ladoo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+            <ImageView android:id="@+id/apple1" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple2" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple3" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple4" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple5" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+            <ImageView android:id="@+id/apple6" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple7" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple8" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple9" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/apple10" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/apple" android:tag="apple" android:layout_margin="4dp" />
+            <!-- Repeat apple2 to apple10 -->
+        </LinearLayout>
+        <TextView
+            android:id="@+id/countApple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 Apple"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <LinearLayout
+            android:id="@+id/boxApple"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/box_border"
+            android:layout_marginLeft="40dp"
+            android:tag="ladoo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+            <ImageView android:id="@+id/square1" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/orange" android:tag="square" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/square2" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/orange" android:tag="square" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/square3" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/orange" android:tag="square" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/square4" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/orange" android:tag="square" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/square5" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/orange" android:tag="square" android:layout_margin="4dp" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+            <ImageView android:id="@+id/square6" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/orange" android:tag="square" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/square7" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/orange" android:tag="square" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/square8" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/orange" android:tag="square" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/square9" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/orange" android:tag="square" android:layout_margin="4dp" />
+            <ImageView android:id="@+id/square10" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/orange" android:tag="square" android:layout_margin="4dp" />
+            <!-- Repeat square2 to square10 -->
+        </LinearLayout>
+        <TextView
+            android:id="@+id/countSqure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 Orange"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <!-- 🎯 Drop Target Boxes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/boxSquare"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/box_border"
+                android:layout_marginLeft="40dp"
+                android:tag="ladoo"/>
+        </LinearLayout>
+
     </LinearLayout>
-
-    <!-- Box (Drop Target) -->
-    <ImageView
-        android:id="@+id/boxTarget"
-        android:layout_width="200dp"
-        android:layout_height="120dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
-        android:src="@drawable/ladoo_box"
-        android:background="#DDDDDD" />
-
-</RelativeLayout>
+</ScrollView>
