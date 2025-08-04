@@ -166,7 +166,7 @@
                     android:layout_width="0dp"
                     android:layout_height="80dp"
                     android:layout_weight="1"
-                    android:text="5. 1 to 9 Numbers"
+                    android:text="5. 1 to 25 Numbers"
                     android:textSize="22sp"
                     android:textStyle="bold"
                     android:background="@android:color/transparent"
@@ -274,7 +274,7 @@
                     android:layout_width="0dp"
                     android:layout_height="80dp"
                     android:layout_weight="1"
-                    android:text="9. Sub"
+                    android:text="9. Shape Information"
                     android:textSize="22sp"
                     android:textStyle="bold"
                     android:background="@android:color/transparent"
@@ -301,7 +301,7 @@
                     android:layout_width="0dp"
                     android:layout_height="80dp"
                     android:layout_weight="1"
-                    android:text="10. 11 to 20 Numbers"
+                    android:text="10. Identify less item"
                     android:textSize="22sp"
                     android:textStyle="bold"
                     android:background="@android:color/transparent"
@@ -768,57 +768,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            app:cardCornerRadius="24dp"
-            app:cardElevation="7dp"
-            app:cardBackgroundColor="#E0F7FA">
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical">
-
-                <Button
-                    android:id="@+id/btn28"
-                    android:layout_width="0dp"
-                    android:layout_height="80dp"
-                    android:layout_weight="1"
-                    android:text="26. Equal Share, Equal Group"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-                    android:background="@android:color/transparent"
-                    android:textColor="#00838F"/>
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            app:cardCornerRadius="24dp"
-            app:cardElevation="7dp"
-            app:cardBackgroundColor="#E0F7FA">
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical">
-
-                <Button
-                    android:id="@+id/btn29"
-                    android:layout_width="0dp"
-                    android:layout_height="80dp"
-                    android:layout_weight="1"
-                    android:text="26. Equal Share, Equal Group"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-                    android:background="@android:color/transparent"
-                    android:textColor="#00838F"/>
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 </ScrollView>
