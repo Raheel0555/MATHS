@@ -63,6 +63,9 @@
             android:name=".num31to99"
             android:exported="false" />
         <activity
+            android:name=".Contours"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
 

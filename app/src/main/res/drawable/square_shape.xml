@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- square_shape.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+
+    <path
+        android:fillColor="#FFA832"
+        android:pathData="M2,2
+                          L58,2
+                          L58,58
+                          L2,58
+                          Z"/>
+</vector>

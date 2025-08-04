@@ -9,6 +9,12 @@
         <item>Hindi</item>
         <item>Marathi</item>
     </string-array>
+    <string name="next_shape">Next Shape</string>
+    <string name="start_game">Start Game</string>
+    <string name="wrong_shape">Wrong shape! Try again.</string>
+    <string name="what_you_will_learn">
+    🎯 What you will learn:\n• Recognize different shapes\n• Understand shape properties\n• Have fun with drag &amp; drop!
+</string>
 
     <string-array name="table_options">
         <item>2</item>
