@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_gradientttt"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="64dp"
+    android:paddingLeft="28dp"
+    android:paddingRight="28dp">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coins &amp; Currency"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:gravity="center"
+        android:layout_marginBottom="38dp"/>
+
+    <Button
+        android:id="@+id/btn_learn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Learn Coins &amp; Notes"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FFF176"
+        android:textColor="#512DA8"
+        android:layout_marginBottom="30dp"
+        android:padding="18dp"/>
+
+    <Button
+        android:id="@+id/btn_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take the Quiz"
+        android:textSize="22sp"
+        android:backgroundTint="#BBDEFB"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:layout_marginBottom="30dp"
+        android:padding="18dp"/>
+
+    <Button
+        android:id="@+id/btn_challenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coin Challenge"
+        android:textSize="22sp"
+        android:backgroundTint="#C8E6C9"
+        android:textStyle="bold"
+        android:textColor="#388E3C"
+        android:padding="18dp"/>
+</LinearLayout>

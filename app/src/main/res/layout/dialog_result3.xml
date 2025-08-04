@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/result_box_bggg"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:id="@+id/result_icon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_trophy" />
+    <TextView
+        android:id="@+id/result_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result message"
+        android:textSize="22sp"
+        android:textColor="#263238"
+        android:gravity="center"
+        android:layout_marginBottom="22dp"/>
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:backgroundTint="#FFD600"
+        android:textStyle="bold"
+        android:textColor="#263238"
+        android:elevation="4dp"/>
+</LinearLayout>

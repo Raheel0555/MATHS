@@ -37,4 +37,10 @@
         <item>9</item>
         <item>10</item>
     </string-array>
+    <string name="learn_coins">Learn Coins/Bills</string>
+    <string name="quiz">Test Yourself</string>
+    <string name="play">Coin Challenge</string>
+    <string name="tap_instruction">Swipe or tap NEXT to see more coins and notes.</string>
+    <string name="quiz_question">What is the value of this coin/note?</string>
+    <string name="challenge_make">Make: ₹%1$d</string>
 </resources>
