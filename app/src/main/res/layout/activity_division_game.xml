@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="गुण: ०"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="१२ ÷ ४ = ?"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <!-- Drop Target -->
+    <TextView
+        android:id="@+id/answerBox"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="इथे टाका"
+        android:gravity="center"
+        android:background="@drawable/answer_box_bg"
+        android:textSize="24sp"
+        android:layout_below="@id/tvQuestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <!-- Drag Options -->
+    <LinearLayout
+        android:id="@+id/optionsLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answerBox"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/option1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="3"
+            android:gravity="center"
+            android:background="@drawable/shape_item_bg"
+            android:textSize="26sp"
+            android:textColor="#010701"
+            android:layout_margin="8dp" />
+
+        <TextView
+            android:id="@+id/option2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="4"
+            android:gravity="center"
+            android:background="@drawable/shape_item_bg"
+            android:textSize="26sp"
+            android:textColor="#010701"
+            android:layout_margin="8dp" />
+
+        <TextView
+            android:id="@+id/option3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="2"
+            android:gravity="center"
+            android:background="@drawable/shape_item_bg"
+            android:textSize="26sp"
+            android:textColor="#010701"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+</RelativeLayout>

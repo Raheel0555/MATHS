@@ -12,13 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MATHS">
         <activity
+            android:name=".DivisionGameActivity"
+            android:exported="false" />
+        <activity
             android:name=".ten_number"
             android:exported="false" />
         <activity
             android:name=".Coinsandcurrency"
             android:exported="false" />
         <activity android:name=".IntroActivity" />
-
         <activity
             android:name=".PuzzelActivity"
             android:exported="false" />
@@ -78,18 +80,15 @@
             android:exported="false" />
         <activity android:name=".QuizActivity" />
         <activity android:name=".ChallengeActivity" />
-
-
         <activity
             android:name=".Contours"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".splashActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
