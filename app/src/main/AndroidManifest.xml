@@ -76,6 +76,9 @@
             android:name=".NumbersActivity"
             android:exported="false" />
         <activity
+            android:name=".MultiplicationGameActivity"
+            android:exported="false" />
+        <activity
             android:name=".num31to99"
             android:exported="false" />
         <activity android:name=".QuizActivity" />
