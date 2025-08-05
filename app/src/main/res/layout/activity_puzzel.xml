@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PuzzelActivity"
-    android:background="@drawable/backp">
+    android:background="@drawable/sky_background">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -38,27 +38,23 @@
                 android:orientation="horizontal"
                 android:gravity="center"
 
-                android:layout_marginStart="40dp"
-                >
+                android:layout_marginStart="40dp">
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="100dp"
                     android:id="@+id/z1"
-                    android:src="@drawable/mang"
-                    />
+                    android:src="@drawable/mang" />
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="100dp"
                     android:id="@+id/z2"
-                    android:src="@drawable/mang"
-                    />
+                    android:src="@drawable/mang" />
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="100dp"
                     android:id="@+id/z3"
-                    android:src="@drawable/mang"
-                    />
+                    android:src="@drawable/mang" />
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="100dp"
@@ -103,9 +99,7 @@
 
                         android:text="Two"
                         android:textSize="30sp"
-                        android:textStyle="bold"
-
-                        />
+                        android:textStyle="bold" />
 
 
                     <RadioButton
@@ -132,12 +126,404 @@
 
                         android:text="Five"
                         android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="70dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+
+                android:layout_marginStart="40dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/o1"
+                    android:src="@drawable/orange" />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/o2"
+                    android:src="@drawable/orange"  />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/o3"
+                    android:src="@drawable/orange"  />
+
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="How many Orange are there?"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/green"
+                android:textColor="@color/red" />
+
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical">
+
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Two"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Three"
+                        android:textSize="30sp"
                         android:textStyle="bold"
 
                         />
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Four"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Five"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
 
                 </RadioGroup>
+            </LinearLayout>
 
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="70dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/d1"
+                    android:src="@drawable/apple" />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/d2"
+                    android:src="@drawable/apple"  />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/d4"
+                    android:src="@drawable/apple"  />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/d5"
+                    android:src="@drawable/apple"  />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/d3"
+                    android:src="@drawable/apple"  />
+
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="How many Orange are there?"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/green"
+                android:textColor="@color/red" />
+
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical">
+
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Two"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Three"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Four"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Five"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="70dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+
+                android:layout_marginStart="40dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/f1"
+                    android:src="@drawable/num5" />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/f2"
+                    android:src="@drawable/num5"  />
+
+
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="How many number 5 are there?"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/green"
+                android:textColor="@color/red" />
+
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical">
+
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Two"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Three"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Four"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Five"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="70dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+
+                android:layout_marginStart="40dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/g1"
+                    android:src="@drawable/tree" />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/g2"
+                    android:src="@drawable/tree"  />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/g3"
+                    android:src="@drawable/tree"  />
+
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="How many Trees are there?"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/green"
+                android:textColor="@color/red" />
+
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical">
+
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Two"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Three"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Four"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+                    <RadioButton
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Five"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </RadioGroup>
             </LinearLayout>
 
 

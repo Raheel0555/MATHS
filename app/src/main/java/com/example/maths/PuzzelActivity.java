@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class PuzzelActivity extends AppCompatActivity {
 
-    RadioGroup radioGroup;
+    RadioGroup radioGroup,radioGroup2,radioGroup3,radioGroup4,radioGroup5;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -33,6 +33,10 @@ public class PuzzelActivity extends AppCompatActivity {
 
         // Find the RadioGroup
         radioGroup = findViewById(R.id.radioGroup);
+        radioGroup2 = findViewById(R.id.radioGroup2);
+        radioGroup3 = findViewById(R.id.radioGroup3);
+        radioGroup4 = findViewById(R.id.radioGroup4);
+        radioGroup5 = findViewById(R.id.radioGroup5);
 
         // Listen for selection change
         radioGroup.setOnCheckedChangeListener((group, checkedId) -> {
@@ -40,6 +44,54 @@ public class PuzzelActivity extends AppCompatActivity {
             if (selectedRadio != null) {
                 String answer = selectedRadio.getText().toString().trim();
                 if (answer.equalsIgnoreCase("Four")) {
+                    Toast.makeText(PuzzelActivity.this, "✅ Correct! Well done!", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(PuzzelActivity.this, "❌ Try Again!", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        radioGroup2.setOnCheckedChangeListener((group, checkedId) -> {
+            RadioButton selectedRadio = findViewById(checkedId);
+            if (selectedRadio != null) {
+                String answer = selectedRadio.getText().toString().trim();
+                if (answer.equalsIgnoreCase("Three")) {
+                    Toast.makeText(PuzzelActivity.this, "✅ Correct! Well done!", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(PuzzelActivity.this, "❌ Try Again!", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        radioGroup3.setOnCheckedChangeListener((group, checkedId) -> {
+            RadioButton selectedRadio = findViewById(checkedId);
+            if (selectedRadio != null) {
+                String answer = selectedRadio.getText().toString().trim();
+                if (answer.equalsIgnoreCase("Five")) {
+                    Toast.makeText(PuzzelActivity.this, "✅ Correct! Well done!", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(PuzzelActivity.this, "❌ Try Again!", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        radioGroup4.setOnCheckedChangeListener((group, checkedId) -> {
+            RadioButton selectedRadio = findViewById(checkedId);
+            if (selectedRadio != null) {
+                String answer = selectedRadio.getText().toString().trim();
+                if (answer.equalsIgnoreCase("Two")) {
+                    Toast.makeText(PuzzelActivity.this, "✅ Correct! Well done!", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(PuzzelActivity.this, "❌ Try Again!", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        radioGroup5.setOnCheckedChangeListener((group, checkedId) -> {
+            RadioButton selectedRadio = findViewById(checkedId);
+            if (selectedRadio != null) {
+                String answer = selectedRadio.getText().toString().trim();
+                if (answer.equalsIgnoreCase("Three")) {
                     Toast.makeText(PuzzelActivity.this, "✅ Correct! Well done!", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(PuzzelActivity.this, "❌ Try Again!", Toast.LENGTH_SHORT).show();

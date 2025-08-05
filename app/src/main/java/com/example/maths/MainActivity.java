@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn10.setOnClickListener(new View.OnClickListener() {
+        btn9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, InfoActivity.class);
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn9.setOnClickListener(new View.OnClickListener() {
+        btn10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CompareDynamicActivity.class);
