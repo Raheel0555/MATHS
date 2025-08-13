@@ -14,4 +14,6 @@
     <color name="background_dark">#F0F0F0</color>
     <color name="text_primary">#000000</color>
     <color name="text_secondary">#757575</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_700">#018786</color>
 </resources>

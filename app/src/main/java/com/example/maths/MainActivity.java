@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn6,btn1,btn2,btn3,btn4,btn7,btn11,btn8 ,btn14, btn12,btn13,btn5,btn9,btn10,btn15,btn16,btn17,btn18,btn20,btn21,btn22,btn23,btn24,btn25;
+    Button btn6,btn1,btn2,btn3,btn4,btn7,btn11,btn8 ,btn14, btn12,btn13,btn5,btn9,btn10,btn15,btn16,btn17,btn18,btn19,btn20,btn21,btn22,btn23,btn24,btn25;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         btn16 = findViewById(R.id.btn16);
         btn17 = findViewById(R.id.btn17);
         btn18 = findViewById(R.id.btn18);
-
+        btn19 = findViewById(R.id.btn19);
         btn20 = findViewById(R.id.btn20);
         btn21 = findViewById(R.id.btn21);
         btn22 = findViewById(R.id.btn22);
@@ -173,6 +173,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, num31to99.class);
+                startActivity(intent);
+            }
+
+        });
+        btn19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Counting.class);
                 startActivity(intent);
             }
         });
