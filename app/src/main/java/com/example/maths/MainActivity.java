@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         btn11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, NextNumberWorksheetActivity.class);
+                Intent intent = new Intent(MainActivity.this, NumberSequenceActivity.class);
                 startActivity(intent);
             }
         });

@@ -15,6 +15,9 @@
             android:name=".DivisionGameActivity"
             android:exported="false" />
         <activity
+            android:name=".NumberSequenceActivity"
+            android:exported="false" />
+        <activity
             android:name=".ten_number"
             android:exported="false" />
         <activity

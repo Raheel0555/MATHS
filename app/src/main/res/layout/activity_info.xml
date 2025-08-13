@@ -11,7 +11,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="📘 माहिती समजून घेऊ"
+        android:text="📘shape Information"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="#BF360C"
@@ -32,7 +32,7 @@
         android:id="@+id/btnNextFact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="➡️ पुढील माहिती"
+        android:text="➡️ Next Item"
         android:textSize="18sp"
         android:backgroundTint="#FFCC80"
         android:textColor="#000000" />

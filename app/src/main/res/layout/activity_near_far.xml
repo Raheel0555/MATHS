@@ -24,7 +24,7 @@
             android:id="@+id/questionText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="चित्र बघ. गाय जवळ आहे की सूर्य?"
+            android:text="Look at the picture. Is the cow near or the sun?"
             android:textSize="18sp"
             android:textColor="#000000"
             android:layout_marginTop="16dp"
@@ -42,7 +42,7 @@
                 android:id="@+id/button1"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:text="गाय"
+                android:text="caw"
                 android:backgroundTint="#9C27B0"
                 android:textColor="#FFFFFF"
                 android:layout_marginEnd="8dp" />
@@ -51,7 +51,7 @@
                 android:id="@+id/button2"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:text="सूर्य"
+                android:text="sun"
                 android:backgroundTint="#9C27B0"
                 android:textColor="#FFFFFF"
                 android:layout_marginStart="8dp" />
@@ -74,7 +74,7 @@
             android:id="@+id/questionText2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="चित्र बघ. मुलगा दूर आहे का मुलगी?"
+            android:text="Look at the picture. Is the boy far or the Girl?"
             android:textSize="18sp"
             android:textColor="#000000"
             android:layout_marginTop="16dp"
@@ -92,7 +92,7 @@
                 android:id="@+id/buttonboy"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:text="मुलगा "
+                android:text="Boy "
                 android:backgroundTint="#9C27B0"
                 android:textColor="#FFFFFF"
                 android:layout_marginEnd="8dp" />
@@ -101,7 +101,7 @@
                 android:id="@+id/buttongirl"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:text="मुलगी"
+                android:text="Girl"
                 android:backgroundTint="#9C27B0"
                 android:textColor="#FFFFFF"
                 android:layout_marginStart="8dp" />

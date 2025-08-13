@@ -37,12 +37,13 @@
 
     <LinearLayout
         android:layout_marginTop="30dp"
-        android:layout_width="300dp"
+        android:layout_width="380dp"
         android:layout_height="50dp"
         android:orientation="horizontal" >
         <Button android:text="7" style="@style/CalcButton"
+
             android:id="@+id/btn1"/>
-        <Button android:text="6" style="@style/CalcButton"
+        <Button android:text="8" style="@style/CalcButton"
             android:id="@+id/btn2"/>
         <Button android:text="9" style="@style/CalcButton"
             android:id="@+id/btn3"/>

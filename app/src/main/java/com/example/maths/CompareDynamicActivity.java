@@ -57,7 +57,7 @@ public class CompareDynamicActivity extends AppCompatActivity {
     private void generateNew() {
         layoutLeft.removeAllViews();
         layoutRight.removeAllViews();
-        tvResult.setText("उत्तर येथे दिसेल");
+        tvResult.setText("Answear showing here");
 
         String emojiSymbol = emoji[random.nextInt(emoji.length)];
 
@@ -77,9 +77,9 @@ public class CompareDynamicActivity extends AppCompatActivity {
         // Randomly decide whether to find less or more
         findLess = random.nextBoolean();
         if (findLess) {
-            tvInstruction.setText("🔍 कमी वस्तू ओळखा");
+            tvInstruction.setText("🔍 Identify less Item");
         } else {
-            tvInstruction.setText("🔍 जास्त वस्तू ओळखा");
+            tvInstruction.setText("🔍 Identify More Item");
         }
 
         addEmojis(layoutLeft, leftCount, emojiSymbol);
@@ -108,9 +108,9 @@ public class CompareDynamicActivity extends AppCompatActivity {
         }
 
         if (correct) {
-            tvResult.setText("✅ बरोबर उत्तर");
+            tvResult.setText("✅ Correct");
         } else {
-            tvResult.setText("❌ चूक उत्तर");
+            tvResult.setText("❌ Wrong");
         }
     }
 }

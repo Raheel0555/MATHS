@@ -6,14 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".Myvillage">
 
-
-
     <ImageView
         android:id="@+id/village"
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:src="@drawable/village" />
-
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/s1"
@@ -30,13 +27,11 @@
             android:orientation="vertical"
             android:layout_marginLeft="20dp">
 
-
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/q1_text"
-                android:text="१. शाळेची बस कुठे आहे?"
+                android:text="1. Where is the school bus?"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="8dp"/>
@@ -48,24 +43,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q1a"
-                    android:text="गेटजवळ"/>
+                    android:text="Near the gate"/>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q1b"
-                    android:text="छतावर"/>
+                    android:text="On the roof"/>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q1c"
-                    android:text="झाडाखाली"/>
+                    android:text="Under the tree"/>
             </RadioGroup>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/q2_text"
-                android:text="२. झाड कुठे आहे?"
+                android:text="2. Where is the tree?"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="8dp"/>
@@ -77,27 +72,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q2a"
-                    android:text="घराजवळ"/>
+                    android:text="Near the house"/>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q2b"
-                    android:text="गावाच्या मध्ये"/>
+                    android:text="In the middle of the village"/>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q2c"
-                    android:text="तळ्याजवळ"/>
+                    android:text="Near the pond"/>
             </RadioGroup>
-
-
-
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/q4_text"
-                android:text="3. विहीर कुठे आहे?"
+                android:text="3. Where is the well?"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="8dp" />
@@ -109,25 +101,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q4a"
-                    android:text="शेता मधे" />
+                    android:text="In the field" />
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q4b"
-                    android:text="झाडाच्या मागे" />
+                    android:text="Behind the tree" />
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q4c"
-                    android:text="रस्त्याजवळ" />
+                    android:text="Near the road" />
             </RadioGroup>
-
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/q5_text"
-                android:text="4. शेतात नांगर कोण चालवत आहे?"
+                android:text="4. Who is ploughing the field?"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="8dp" />
@@ -139,33 +130,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q5a"
-                    android:text="एक कुत्रा" />
+                    android:text="A dog" />
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q5b"
-                    android:text="एक शेतकरी" />
+                    android:text="A farmer" />
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q5c"
-                    android:text="एक शिक्षक" />
+                    android:text="A teacher" />
             </RadioGroup>
-
-
-
-
-
-
-
-
-
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/q9_text"
-                android:text="6. तळे कुठे आहे?"
+                android:text="6. Where is the pond?"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="8dp"/>
@@ -177,25 +159,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q9a"
-                    android:text="झाडाच्या जवळ"/>
+                    android:text="Near the tree"/>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q9b"
-                    android:text="गावाच्या उजव्या बाजूला"/>
+                    android:text="On the right side of the village"/>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q9c"
-                    android:text="शाळेच्या मागे"/>
+                    android:text="Behind the school"/>
             </RadioGroup>
-
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/q10_text"
-                android:text="7. रिक्षा कुठे आहे?"
+                android:text="7. Where is the rickshaw?"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="8dp"/>
@@ -207,20 +188,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q10a"
-                    android:text="रस्त्याजवळ"/>
+                    android:text="Near the road"/>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q10b"
-                    android:text="छपरावर"/>
+                    android:text="On the roof"/>
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/q10c"
-                    android:text="झाडाखाली"/>
+                    android:text="Under the tree"/>
             </RadioGroup>
-
-
 
             <!-- Submit Button -->
             <Button
@@ -243,9 +222,6 @@
                 android:gravity="center"/>
 
         </LinearLayout>
-
-
-
     </androidx.core.widget.NestedScrollView>
 
 </RelativeLayout>

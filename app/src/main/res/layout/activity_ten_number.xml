@@ -40,7 +40,7 @@
             android:id="@+id/countLadoo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="0 लाडू"
+            android:text="0 ladoo"
             android:textSize="18sp"
             android:textStyle="bold"
              android:textColor="#000"
@@ -101,7 +101,7 @@
             android:orientation="horizontal"
             android:background="@drawable/box_border"
             android:layout_marginLeft="40dp"
-            android:tag="ladoo"/>
+            android:tag="ball"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -145,7 +145,7 @@
             android:orientation="horizontal"
             android:background="@drawable/box_border"
             android:layout_marginLeft="40dp"
-            android:tag="ladoo"/>
+            android:tag="pencil"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -188,7 +188,7 @@
             android:orientation="horizontal"
             android:background="@drawable/box_border"
             android:layout_marginLeft="40dp"
-            android:tag="ladoo"/>
+            android:tag="apple"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -216,7 +216,7 @@
             <!-- Repeat square2 to square10 -->
         </LinearLayout>
         <TextView
-            android:id="@+id/countSqure"
+            android:id="@+id/countSquare"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="0 Orange"
@@ -240,7 +240,7 @@
                 android:orientation="horizontal"
                 android:background="@drawable/box_border"
                 android:layout_marginLeft="40dp"
-                android:tag="ladoo"/>
+                android:tag="square"/>
         </LinearLayout>
 
     </LinearLayout>

@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="कृपया लहान किंवा मोठी संख्या निवडा"
+            android:text="Indentify Small And Big Numbers"
             android:textSize="20sp"
             android:textColor="#BF360C"
             android:layout_marginBottom="16dp"
@@ -33,7 +33,7 @@
             android:id="@+id/btnPickSmallest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="👶 लहान संख्या"
+            android:text="👶 Small Number"
             android:textSize="18sp"
             android:backgroundTint="#B2EBF2"
             android:layout_marginBottom="12dp"/>
@@ -42,7 +42,7 @@
             android:id="@+id/btnPickLargest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="👴 मोठी संख्या"
+            android:text="👴 Big Number"
             android:textSize="18sp"
             android:backgroundTint="#FFCDD2"
             android:layout_marginBottom="20dp"/>
@@ -51,7 +51,7 @@
             android:layout_height="match_parent"
             android:layout_width="wrap_content"
             android:id="@+id/tvAnswer"
-            android:text="उत्तर येथे दिसेल"
+            android:text="Answear Show here"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#1A237E" />

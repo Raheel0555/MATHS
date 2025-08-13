@@ -90,14 +90,14 @@ public class ten_number extends AppCompatActivity {
                             if (newCount < 10) {
                                 countText.setText(newCount + " " + getMarathiName(draggedTag));
                             } else if (newCount == 10) {
-                                countText.setText("1 दशक पूर्ण झाले");
+                                countText.setText("1 Decade complete ");
                             }
 
                             if (matchedCount == totalItems) {
-                                Toast.makeText(this, "🎉 सर्व वस्तू योग्यपणे ठेवण्यात आल्या!", Toast.LENGTH_LONG).show();
+                                Toast.makeText(this, "🎉 All items were placed properly!", Toast.LENGTH_LONG).show();
                             }
                         } else {
-                            Toast.makeText(this, "❌ चुकीचा बॉक्स!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(this, "❌ wrong box!", Toast.LENGTH_SHORT).show();
                         }
                     }
                     return true;
@@ -113,12 +113,12 @@ public class ten_number extends AppCompatActivity {
 
         private String getMarathiName(String tag) {
             switch (tag) {
-                case "ladoo": return "लाडू";
-                case "ball": return "गोल";
-                case "pencil": return "पेन्सिल";
-                case "apple": return "सफरचंद";
-                case "square": return "चौरस";
-                default: return "वस्तू";
+                case "ladoo": return "Ladoo";
+                case "ball": return "Ball";
+                case "pencil": return "Clock";
+                case "apple": return "apple";
+                case "square": return "Orange";
+                default: return "item";
             }
         }
     }

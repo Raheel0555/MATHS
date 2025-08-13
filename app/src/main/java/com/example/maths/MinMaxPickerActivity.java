@@ -32,12 +32,12 @@ public class MinMaxPickerActivity extends AppCompatActivity {
 
         btnPickSmallest.setOnClickListener(v -> {
             int min = Collections.min(Arrays.asList(currentSet));
-            tvAnswer.setText("👶 लहान संख्या: " + min);
+            tvAnswer.setText("👶 Small Numbers: " + min);
         });
 
         btnPickLargest.setOnClickListener(v -> {
             int max = Collections.max(Arrays.asList(currentSet));
-            tvAnswer.setText("👴 मोठी संख्या: " + max);
+            tvAnswer.setText("👴 Big Numbers: " + max);
         });
     }
 
@@ -51,7 +51,7 @@ public class MinMaxPickerActivity extends AppCompatActivity {
         Collections.shuffle(list);
         list.toArray(currentSet); // optional, currentSet is already modified
 
-        tvNumbersSet.setText("संख्या: " + Arrays.toString(currentSet));
-        tvAnswer.setText("उत्तर येथे दिसेल");
+        tvNumbersSet.setText("Numbers: " + Arrays.toString(currentSet));
+        tvAnswer.setText("Answear show here");
     }
 }

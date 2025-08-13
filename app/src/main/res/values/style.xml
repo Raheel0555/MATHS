@@ -6,5 +6,9 @@
         <item name="android:layout_weight">1</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">#FFC107</item>
+        <item name="android:textColor">@color/black</item>
+
+
     </style>
 </resources>

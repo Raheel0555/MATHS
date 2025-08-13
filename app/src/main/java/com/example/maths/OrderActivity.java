@@ -36,14 +36,14 @@ public class OrderActivity extends AppCompatActivity {
             v.startAnimation(AnimationUtils.loadAnimation(this, android.R.anim.fade_in));
             Integer[] copy = currentNumbers.clone();
             Arrays.sort(copy);
-            tvResult.setText("चढता क्रम: " + Arrays.toString(copy));
+            tvResult.setText("Acending Form: " + Arrays.toString(copy));
         });
 
         btnDesc.setOnClickListener(v -> {
             v.startAnimation(AnimationUtils.loadAnimation(this, android.R.anim.fade_in));
             Integer[] copy = currentNumbers.clone();
             Arrays.sort(copy, Collections.reverseOrder());
-            tvResult.setText("उतरता क्रम: " + Arrays.toString(copy));
+            tvResult.setText("Decending Form: " + Arrays.toString(copy));
         });
 
         btnNewSet.setOnClickListener(v -> {
@@ -62,7 +62,7 @@ public class OrderActivity extends AppCompatActivity {
         Collections.shuffle(list);
         list.toArray(currentNumbers);
 
-        tvNumbers.setText("संख्या: " + Arrays.toString(currentNumbers));
-        tvResult.setText("उत्तर येथे दिसेल");
+        tvNumbers.setText("Nmbers: " + Arrays.toString(currentNumbers));
+        tvResult.setText("See Answear here");
     }
 }

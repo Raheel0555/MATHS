@@ -69,10 +69,10 @@ public class DivisionGameActivity extends AppCompatActivity {
         private void checkAnswer(int selected) {
             if (selected == correctAnswer) {
                 score++;
-                tvScore.setText("गुण: " + score);
-                Toast.makeText(this, "✅ बरोबर!", Toast.LENGTH_SHORT).show();
+                tvScore.setText("mark: " + score);
+                Toast.makeText(this, "✅ Correct!", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(this, "❌ चूक आहे, पुन्हा प्रयत्न करा", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "❌ Wrong, Try again", Toast.LENGTH_SHORT).show();
             }
             loadNewQuestion();
         }
@@ -101,6 +101,6 @@ public class DivisionGameActivity extends AppCompatActivity {
             optionViews[i].setText(String.valueOf(options.get(i)));
         }
 
-        answerBox.setText("इथे टाका");
+        answerBox.setText("placed here");
     }
 }

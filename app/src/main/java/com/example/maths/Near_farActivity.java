@@ -20,15 +20,15 @@ public class Near_farActivity extends AppCompatActivity {
         button1 = findViewById(R.id.button1);     // गाय
         button2 = findViewById(R.id.button2);     // सूर्य
 
-        button1.setOnClickListener(v -> showToast("✅ बरोबर! गाय जवळ आहे."));
-        button2.setOnClickListener(v -> showToast("❌ सूर्य लांब आहे."));
+        button1.setOnClickListener(v -> showToast("✅ correct!caw is near."));
+        button2.setOnClickListener(v -> showToast("❌ sun is far."));
 
         // Question 2: मुलगा दूर आहे का मुलगी?
         buttonBoy = findViewById(R.id.buttonboy);     // मुलगा
         buttonGirl = findViewById(R.id.buttongirl);   // मुलगी
 
-        buttonBoy.setOnClickListener(v -> showToast("✅ बरोबर! मुलगा लांब आहे."));
-        buttonGirl.setOnClickListener(v -> showToast("❌ मुलगी जवळ आहे."));
+        buttonBoy.setOnClickListener(v -> showToast("✅ correct! boy is far."));
+        buttonGirl.setOnClickListener(v -> showToast("❌ girl is near."));
     }
 
     private void showToast(String msg) {
