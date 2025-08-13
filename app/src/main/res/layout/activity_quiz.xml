@@ -11,7 +11,18 @@
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="44dp"/>
+        android:layout_marginTop="44dp" />
+
+    <!-- Hint/Instruction Text -->
+    <TextView
+        android:id="@+id/instruction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell which coin it is ?"
+        android:textSize="28sp"
+        android:textColor="#FF000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp" />
 
     <LinearLayout
         android:id="@+id/choices_layout"
@@ -19,5 +30,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="46dp"
-        android:gravity="center"/>
+        android:gravity="center" />
 </LinearLayout>

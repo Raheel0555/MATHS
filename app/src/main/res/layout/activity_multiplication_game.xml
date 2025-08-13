@@ -14,7 +14,7 @@
         android:textSize="26sp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="40dp" />
 
     <!-- Feedback Text -->
     <TextView
@@ -26,7 +26,7 @@
         android:textColor="@android:color/holo_green_dark"
         android:layout_below="@id/questionText"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp" />
 
     <!-- Apple Image (Draggable) -->
     <ImageView
@@ -49,6 +49,22 @@
         android:layout_marginBottom="150dp"
         android:src="@drawable/basket"
         android:contentDescription="Basket" />
+
+    <!-- Hint Text Below Basket -->
+    <!-- Hint Text Above Basket -->
+    <TextView
+        android:id="@+id/hintText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drag the apples into the basket!"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_above="@id/basket"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp" />
+
+
+    <!-- Next Button -->
     <Button
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
