@@ -544,7 +544,7 @@
                     android:layout_width="0dp"
                     android:layout_height="80dp"
                     android:layout_weight="1"
-                    android:text="19. Songs of Numbers"
+                    android:text="19. Counting"
                     android:textSize="22sp"
                     android:textStyle="bold"
                     android:background="@android:color/transparent"

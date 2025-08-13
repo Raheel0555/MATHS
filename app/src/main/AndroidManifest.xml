@@ -76,6 +76,9 @@
             android:name=".NumbersActivity"
             android:exported="false" />
         <activity
+            android:name=".Counting"
+            android:exported="false" />
+        <activity
             android:name=".MultiplicationGameActivity"
             android:exported="false" />
         <activity
