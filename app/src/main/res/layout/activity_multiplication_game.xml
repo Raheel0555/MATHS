@@ -57,8 +57,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Drag the apples into the basket!"
-        android:textSize="16sp"
+        android:textSize="26sp"
         android:textColor="#555555"
+        android:fontFamily="@font/baloo2_regular"
         android:layout_above="@id/basket"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="80dp" />

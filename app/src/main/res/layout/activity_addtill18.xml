@@ -70,4 +70,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </HorizontalScrollView>
+
+    <!-- Instruction text near bottom -->
+    <TextView
+        android:id="@+id/instruction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drag the options in the given box to make the given number"
+        android:textSize="20sp"
+        android:fontFamily="@font/baloo2_regular"
+        android:textColor="#FF000000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="199dp" />
 </RelativeLayout>

@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="22dp">
+
     <TextView
         android:id="@+id/challenge_target_text"
         android:layout_width="wrap_content"
@@ -12,15 +13,17 @@
         android:textSize="22sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
-        android:padding="10dp"/>
+        android:padding="10dp" />
+
     <TextView
         android:id="@+id/challenge_sum_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your Sum: 0"
-        android:textSize="16sp"
+        android:textSize="26sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="12dp" />
+
     <LinearLayout
         android:id="@+id/challenge_chosen_layout"
         android:orientation="horizontal"
@@ -28,11 +31,25 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@drawable/challenge_zone_bg"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp" />
+
+    <!-- Instruction Text Under Box -->
+    <TextView
+        android:id="@+id/instruction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap the options to make the given number"
+        android:textSize="26sp"
+        android:fontFamily="@font/baloo2_regular"
+        android:textColor="#FF000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp">
+
         <LinearLayout
             android:id="@+id/challenge_options_layout"
             android:orientation="horizontal"
